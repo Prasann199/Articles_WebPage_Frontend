@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(33, 33, 136);
+    color: White;
+    font-family: cursive;
+    padding: 1vw 4vw;
+    min-height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.nav-right button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    transition: all ease 0.3s;
+}
+.nav-right button:hover{
+    background: rgba(255, 255, 255, 0.858);
+    color: black;
+}
